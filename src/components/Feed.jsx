@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-import Sidebar from './SideBar';
+import Sidebar from './Sidebar';
 
 const Feed = () => {
   return (
@@ -16,6 +16,13 @@ const Feed = () => {
     color: '#fff' }}>
       Copyright 2022 Bell Media
     </Typography>
+    </Box>
+    <Box>
+      <Typography variant="h4"
+      fontWeight="bold" mb={2} sx={{
+        color: 'white' }}>
+       New <span style={{ color: '#F31503' }}>videos</span>
+      </Typography>
     </Box>
     </Stack>
   )
